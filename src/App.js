@@ -4,7 +4,7 @@ import TextField from '@material-ui/core/TextField';
 import Autocomplete from '@material-ui/lab/Autocomplete';
 import SearchIcon from '@material-ui/icons/Search';
 
-const manuals = [
+const manuais = [
   { title: 'Teste Manual 1'},
   { title: 'Teste Manual 2'},
   { title: 'Teste Manual 3'},
@@ -21,7 +21,7 @@ function App() {
           class=""
           
           id="combo-box"
-          options={manuals}
+          options={manuais}
           getOptionLabel={(option) => option.title}
           renderInput={(params) => <TextField {...params} label="Digite aqui o nome do manual" variant="outlined" />}
           />
