@@ -19,7 +19,7 @@ const manuals = [
         break;
       case 'Test Manual 3': window.open('http://www.g1.com.br');
         break;
-      case 'Test Manual 4': window.open('http://www.sicredi.com.br');
+      case 'Test Manual 4': window.open('http://www.wikipedia.com.br');
         break;
     };
   };
