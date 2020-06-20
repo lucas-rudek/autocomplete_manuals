@@ -1,9 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
-## Search Auto
+## Search with AutoComplete
 
-Simple search with AutoComplete and React. Some Tailwind for style.
+Simple search with AutoComplete and React. Some Tailwind for style. The idea is a basic search of manuals on application.
 
 
 ## Dependencies
