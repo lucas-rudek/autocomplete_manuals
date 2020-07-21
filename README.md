@@ -10,9 +10,6 @@ Simple search with AutoComplete and React. Some Tailwind for style. The idea is 
 
 -- Material UI
 
-    -- AutoComplete
-    -- Icons
-
 -- React
 
 -- Tailwind
