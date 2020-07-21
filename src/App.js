@@ -24,23 +24,23 @@ function App() {
    <body class="bg-grey-lighter h-screen font-sans">
       <div class="container mx-auto h-full w-full flex justify-center items-center">
         <div>
-          <div className="flex w-full justify-end items-center">
-            <img class="h-20 mb-10" src="./logo.png" alt=""></img> 
-            <Autocomplete
-              class=""
-              id="combo-box"
-              options={manuals}
-              getOptionLabel={(option) => option.title}
-              onInputChange={handleInputChange}
-              renderInput={(params) => 
-                <TextField 
-                  {...params} 
-                  label="Search manual here" 
-                  variant="outlined" 
-              />}
-            />
-            <div className="absolute pr-10" ><SearchIcon color="disabled"/></div>
-          </div>
+            <img class="mb-5" src="./logo.png" alt=""></img> 
+            <div className="flex justify-end items-center">
+              <Autocomplete disableClearable
+                className="w-full"
+                id="combo-box"
+                options={manuals}
+                getOptionLabel={(option) => option.title}
+                onInputChange={handleInputChange}
+                renderInput={(params) => 
+                  <TextField 
+                    {...params} 
+                    label="Search manual here" 
+                    variant="outlined" 
+                />}
+              />
+              <div className="absolute pr-10" ><SearchIcon color="disabled"/></div>
+            </div>
         </div>
       </div>
   </body>
