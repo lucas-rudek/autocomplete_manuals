@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/autocomplete_manuals/static/css/main.bd2230ce.css",
+    "main.js": "/autocomplete_manuals/static/js/main.e8785698.js",
+    "index.html": "/autocomplete_manuals/index.html",
+    "main.bd2230ce.css.map": "/autocomplete_manuals/static/css/main.bd2230ce.css.map",
+    "main.e8785698.js.map": "/autocomplete_manuals/static/js/main.e8785698.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd2230ce.css",
+    "static/js/main.e8785698.js"
+  ]
+}
